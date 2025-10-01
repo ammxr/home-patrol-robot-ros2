@@ -1,0 +1,19 @@
+services:
+  ros:
+    build: .
+    container_name: ros2_sim
+    environment:
+      - DISPLAY = ${DISPLAY}   # Container gui -> displays on host
+    
+    volumes:
+      # Allows graphical programs in the container.
+      - /tmp/.X11-unix:/tpm
+      
+      # ros2_ws local mounted/in-sync with container 
+      - ./ros2_ws:/home/ros/ros2_ws  
+      - ./worlds:/home/ros/worlds:ro # world import
+    
+    network_mode: "host"   # Sharing host for ros2 dds
+    stdin_open: true  # for interactive shells
+    tty: true
+    priveileged: true # full system access (hw, gui, etc)

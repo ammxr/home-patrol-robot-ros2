@@ -1,9 +1,10 @@
+# ubuntu 22.04 + ros2 humble w/ desktop tools 
 FROM osrf/ros:humble-desktop
 
 ENV DEBIAN_FRONTEND=noninteractive
 SHELL ["/bin/bash","-lc"]
 
-# nav2/slamtoolbox install
+# install dependancies
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
       ros-humble-navigation2 \
@@ -14,7 +15,7 @@ RUN apt-get update && \
       python3-pip \
       && rm -rf /var/lib/apt/lists/*
 
-# setup for non-root user
+# setup non-root user
 ARG USER=ros
 ARG UID=1000
 RUN useradd -m -u ${UID} ${USER} || true
