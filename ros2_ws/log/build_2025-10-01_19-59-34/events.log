@@ -1,0 +1,199 @@
+[0.000000] (-) TimerEvent: {}
+[0.000225] (follow_waypoints) JobQueued: {'identifier': 'follow_waypoints', 'dependencies': OrderedDict()}
+[0.000250] (robot_bringup) JobQueued: {'identifier': 'robot_bringup', 'dependencies': OrderedDict()}
+[0.000265] (robot_description) JobQueued: {'identifier': 'robot_description', 'dependencies': OrderedDict()}
+[0.000524] (follow_waypoints) JobStarted: {'identifier': 'follow_waypoints'}
+[0.099804] (-) TimerEvent: {}
+[0.199994] (-) TimerEvent: {}
+[0.300155] (-) TimerEvent: {}
+[0.375437] (robot_bringup) JobStarted: {'identifier': 'robot_bringup'}
+[0.380932] (robot_description) JobStarted: {'identifier': 'robot_description'}
+[0.400222] (-) TimerEvent: {}
+[0.436267] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'cmake'}
+[0.436782] (robot_description) Command: {'cmd': ['/usr/bin/cmake', '/home/ros/ros2_ws/src/robot_description', '-DCMAKE_INSTALL_PREFIX=/home/ros/ros2_ws/install/robot_description'], 'cwd': '/home/ros/ros2_ws/build/robot_description', 'env': OrderedDict([('HOSTNAME', 'ammar-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros'), ('OLDPWD', '/home/ros/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/ros/ros2_ws/build/robot_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('ROS_WORKSPACE', '/home/ros/ros2_ws'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.500295] (-) TimerEvent: {}
+[0.600452] (-) TimerEvent: {}
+[0.700628] (-) TimerEvent: {}
+[0.800806] (-) TimerEvent: {}
+[0.901808] (-) TimerEvent: {}
+[1.002208] (-) TimerEvent: {}
+[1.102416] (-) TimerEvent: {}
+[1.202620] (-) TimerEvent: {}
+[1.302798] (-) TimerEvent: {}
+[1.402959] (-) TimerEvent: {}
+[1.503103] (-) TimerEvent: {}
+[1.603270] (-) TimerEvent: {}
+[1.703483] (-) TimerEvent: {}
+[1.803692] (-) TimerEvent: {}
+[1.903880] (-) TimerEvent: {}
+[2.004046] (-) TimerEvent: {}
+[2.104219] (-) TimerEvent: {}
+[2.204422] (-) TimerEvent: {}
+[2.304562] (-) TimerEvent: {}
+[2.404714] (-) TimerEvent: {}
+[2.504914] (-) TimerEvent: {}
+[2.605055] (-) TimerEvent: {}
+[2.705200] (-) TimerEvent: {}
+[2.805361] (-) TimerEvent: {}
+[2.905505] (-) TimerEvent: {}
+[3.005673] (-) TimerEvent: {}
+[3.105973] (-) TimerEvent: {}
+[3.206202] (-) TimerEvent: {}
+[3.306389] (-) TimerEvent: {}
+[3.406575] (-) TimerEvent: {}
+[3.506772] (-) TimerEvent: {}
+[3.581861] (robot_bringup) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/robot_bringup', 'build', '--build-base', '/home/ros/ros2_ws/build/robot_bringup/build', 'install', '--record', '/home/ros/ros2_ws/build/robot_bringup/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ros/ros2_ws/src/robot_bringup', 'env': {'HOSTNAME': 'ammar-desktop', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ros', 'OLDPWD': '/home/ros/ros2_ws/src', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'DEBIAN_FRONTEND': 'noninteractive', 'PWD': '/home/ros/ros2_ws/build/robot_bringup', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/ros/ros2_ws/build/robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/ros2_ws/install/robot_bringup/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'ROS_WORKSPACE': '/home/ros/ros2_ws'}, 'shell': False}
+[3.583644] (follow_waypoints) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/follow_waypoints', 'build', '--build-base', '/home/ros/ros2_ws/build/follow_waypoints/build', 'install', '--record', '/home/ros/ros2_ws/build/follow_waypoints/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ros/ros2_ws/src/follow_waypoints', 'env': {'HOSTNAME': 'ammar-desktop', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ros', 'OLDPWD': '/home/ros/ros2_ws/src', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'DEBIAN_FRONTEND': 'noninteractive', 'PWD': '/home/ros/ros2_ws/build/follow_waypoints', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/ros/ros2_ws/build/follow_waypoints/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/ros2_ws/install/follow_waypoints/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'ROS_WORKSPACE': '/home/ros/ros2_ws'}, 'shell': False}
+[3.606829] (-) TimerEvent: {}
+[3.707348] (-) TimerEvent: {}
+[3.721952] (follow_waypoints) StdoutLine: {'line': b'running egg_info\n'}
+[3.722077] (robot_bringup) StdoutLine: {'line': b'running egg_info\n'}
+[3.722254] (follow_waypoints) StdoutLine: {'line': b'creating ../../build/follow_waypoints/follow_waypoints.egg-info\n'}
+[3.722351] (follow_waypoints) StdoutLine: {'line': b'writing ../../build/follow_waypoints/follow_waypoints.egg-info/PKG-INFO\n'}
+[3.722434] (robot_bringup) StdoutLine: {'line': b'creating ../../build/robot_bringup/robot_bringup.egg-info\n'}
+[3.722485] (robot_bringup) StdoutLine: {'line': b'writing ../../build/robot_bringup/robot_bringup.egg-info/PKG-INFO\n'}
+[3.722678] (robot_bringup) StdoutLine: {'line': b'writing dependency_links to ../../build/robot_bringup/robot_bringup.egg-info/dependency_links.txt\n'}
+[3.722757] (robot_bringup) StdoutLine: {'line': b'writing entry points to ../../build/robot_bringup/robot_bringup.egg-info/entry_points.txt\n'}
+[3.722805] (robot_bringup) StdoutLine: {'line': b'writing requirements to ../../build/robot_bringup/robot_bringup.egg-info/requires.txt\n'}
+[3.722848] (robot_bringup) StdoutLine: {'line': b'writing top-level names to ../../build/robot_bringup/robot_bringup.egg-info/top_level.txt\n'}
+[3.722944] (robot_bringup) StdoutLine: {'line': b"writing manifest file '../../build/robot_bringup/robot_bringup.egg-info/SOURCES.txt'\n"}
+[3.722988] (follow_waypoints) StdoutLine: {'line': b'writing dependency_links to ../../build/follow_waypoints/follow_waypoints.egg-info/dependency_links.txt\n'}
+[3.723033] (follow_waypoints) StdoutLine: {'line': b'writing entry points to ../../build/follow_waypoints/follow_waypoints.egg-info/entry_points.txt\n'}
+[3.723078] (follow_waypoints) StdoutLine: {'line': b'writing requirements to ../../build/follow_waypoints/follow_waypoints.egg-info/requires.txt\n'}
+[3.723115] (follow_waypoints) StdoutLine: {'line': b'writing top-level names to ../../build/follow_waypoints/follow_waypoints.egg-info/top_level.txt\n'}
+[3.723153] (follow_waypoints) StdoutLine: {'line': b"writing manifest file '../../build/follow_waypoints/follow_waypoints.egg-info/SOURCES.txt'\n"}
+[3.723555] (follow_waypoints) StdoutLine: {'line': b"reading manifest file '../../build/follow_waypoints/follow_waypoints.egg-info/SOURCES.txt'\n"}
+[3.723611] (robot_bringup) StdoutLine: {'line': b"reading manifest file '../../build/robot_bringup/robot_bringup.egg-info/SOURCES.txt'\n"}
+[3.723963] (follow_waypoints) StdoutLine: {'line': b"writing manifest file '../../build/follow_waypoints/follow_waypoints.egg-info/SOURCES.txt'\n"}
+[3.724031] (robot_bringup) StdoutLine: {'line': b"writing manifest file '../../build/robot_bringup/robot_bringup.egg-info/SOURCES.txt'\n"}
+[3.724123] (robot_bringup) StdoutLine: {'line': b'running build\n'}
+[3.724182] (robot_bringup) StdoutLine: {'line': b'running build_py\n'}
+[3.724229] (follow_waypoints) StdoutLine: {'line': b'running build\n'}
+[3.724270] (follow_waypoints) StdoutLine: {'line': b'running build_py\n'}
+[3.724309] (follow_waypoints) StdoutLine: {'line': b'creating /home/ros/ros2_ws/build/follow_waypoints/build\n'}
+[3.724349] (robot_bringup) StdoutLine: {'line': b'creating /home/ros/ros2_ws/build/robot_bringup/build\n'}
+[3.724429] (robot_bringup) StdoutLine: {'line': b'creating /home/ros/ros2_ws/build/robot_bringup/build/lib\n'}
+[3.724472] (robot_bringup) StdoutLine: {'line': b'creating /home/ros/ros2_ws/build/robot_bringup/build/lib/robot_bringup\n'}
+[3.724510] (robot_bringup) StdoutLine: {'line': b'copying robot_bringup/__init__.py -> /home/ros/ros2_ws/build/robot_bringup/build/lib/robot_bringup\n'}
+[3.724548] (robot_bringup) StdoutLine: {'line': b'running install\n'}
+[3.724590] (follow_waypoints) StdoutLine: {'line': b'creating /home/ros/ros2_ws/build/follow_waypoints/build/lib\n'}
+[3.724629] (follow_waypoints) StdoutLine: {'line': b'creating /home/ros/ros2_ws/build/follow_waypoints/build/lib/follow_waypoints\n'}
+[3.724669] (follow_waypoints) StdoutLine: {'line': b'copying follow_waypoints/__init__.py -> /home/ros/ros2_ws/build/follow_waypoints/build/lib/follow_waypoints\n'}
+[3.724708] (follow_waypoints) StdoutLine: {'line': b'running install\n'}
+[3.724762] (follow_waypoints) StdoutLine: {'line': b'running install_lib\n'}
+[3.724820] (robot_bringup) StdoutLine: {'line': b'running install_lib\n'}
+[3.724931] (follow_waypoints) StdoutLine: {'line': b'creating /home/ros/ros2_ws/install/follow_waypoints/lib/python3.10/site-packages/follow_waypoints\n'}
+[3.724999] (follow_waypoints) StdoutLine: {'line': b'copying /home/ros/ros2_ws/build/follow_waypoints/build/lib/follow_waypoints/__init__.py -> /home/ros/ros2_ws/install/follow_waypoints/lib/python3.10/site-packages/follow_waypoints\n'}
+[3.725060] (robot_bringup) StdoutLine: {'line': b'creating /home/ros/ros2_ws/install/robot_bringup/lib/python3.10/site-packages/robot_bringup\n'}
+[3.725116] (robot_bringup) StdoutLine: {'line': b'copying /home/ros/ros2_ws/build/robot_bringup/build/lib/robot_bringup/__init__.py -> /home/ros/ros2_ws/install/robot_bringup/lib/python3.10/site-packages/robot_bringup\n'}
+[3.725285] (follow_waypoints) StdoutLine: {'line': b'byte-compiling /home/ros/ros2_ws/install/follow_waypoints/lib/python3.10/site-packages/follow_waypoints/__init__.py to __init__.cpython-310.pyc\n'}
+[3.725372] (robot_bringup) StdoutLine: {'line': b'byte-compiling /home/ros/ros2_ws/install/robot_bringup/lib/python3.10/site-packages/robot_bringup/__init__.py to __init__.cpython-310.pyc\n'}
+[3.725428] (follow_waypoints) StdoutLine: {'line': b'running install_data\n'}
+[3.725482] (follow_waypoints) StdoutLine: {'line': b'creating /home/ros/ros2_ws/install/follow_waypoints/share/ament_index\n'}
+[3.725545] (follow_waypoints) StdoutLine: {'line': b'creating /home/ros/ros2_ws/install/follow_waypoints/share/ament_index/resource_index\n'}
+[3.725608] (follow_waypoints) StdoutLine: {'line': b'creating /home/ros/ros2_ws/install/follow_waypoints/share/ament_index/resource_index/packages\n'}
+[3.725650] (robot_bringup) StdoutLine: {'line': b'running install_data\n'}
+[3.725690] (robot_bringup) StdoutLine: {'line': b'creating /home/ros/ros2_ws/install/robot_bringup/share/ament_index\n'}
+[3.725754] (robot_bringup) StdoutLine: {'line': b'creating /home/ros/ros2_ws/install/robot_bringup/share/ament_index/resource_index\n'}
+[3.725799] (robot_bringup) StdoutLine: {'line': b'creating /home/ros/ros2_ws/install/robot_bringup/share/ament_index/resource_index/packages\n'}
+[3.725840] (robot_bringup) StdoutLine: {'line': b'copying resource/robot_bringup -> /home/ros/ros2_ws/install/robot_bringup/share/ament_index/resource_index/packages\n'}
+[3.725915] (robot_bringup) StdoutLine: {'line': b'copying package.xml -> /home/ros/ros2_ws/install/robot_bringup/share/robot_bringup\n'}
+[3.725957] (robot_bringup) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.725994] (follow_waypoints) StdoutLine: {'line': b'copying resource/follow_waypoints -> /home/ros/ros2_ws/install/follow_waypoints/share/ament_index/resource_index/packages\n'}
+[3.726037] (follow_waypoints) StdoutLine: {'line': b'copying package.xml -> /home/ros/ros2_ws/install/follow_waypoints/share/follow_waypoints\n'}
+[3.726074] (follow_waypoints) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.726741] (follow_waypoints) StdoutLine: {'line': b'Copying ../../build/follow_waypoints/follow_waypoints.egg-info to /home/ros/ros2_ws/install/follow_waypoints/lib/python3.10/site-packages/follow_waypoints-0.0.0-py3.10.egg-info\n'}
+[3.726872] (robot_bringup) StdoutLine: {'line': b'Copying ../../build/robot_bringup/robot_bringup.egg-info to /home/ros/ros2_ws/install/robot_bringup/lib/python3.10/site-packages/robot_bringup-0.0.0-py3.10.egg-info\n'}
+[3.727365] (follow_waypoints) StdoutLine: {'line': b'running install_scripts\n'}
+[3.727524] (robot_bringup) StdoutLine: {'line': b'running install_scripts\n'}
+[3.739665] (robot_bringup) StdoutLine: {'line': b"writing list of installed files to '/home/ros/ros2_ws/build/robot_bringup/install.log'\n"}
+[3.739752] (follow_waypoints) StdoutLine: {'line': b"writing list of installed files to '/home/ros/ros2_ws/build/follow_waypoints/install.log'\n"}
+[3.752893] (follow_waypoints) CommandEnded: {'returncode': 0}
+[3.807435] (-) TimerEvent: {}
+[3.907709] (-) TimerEvent: {}
+[4.007885] (-) TimerEvent: {}
+[4.108093] (-) TimerEvent: {}
+[4.208273] (-) TimerEvent: {}
+[4.233493] (follow_waypoints) JobEnded: {'identifier': 'follow_waypoints', 'rc': 0}
+[4.234220] (robot_bringup) CommandEnded: {'returncode': 0}
+[4.239861] (robot_bringup) JobEnded: {'identifier': 'robot_bringup', 'rc': 0}
+[4.308362] (-) TimerEvent: {}
+[4.408532] (-) TimerEvent: {}
+[4.508708] (-) TimerEvent: {}
+[4.608891] (-) TimerEvent: {}
+[4.709088] (-) TimerEvent: {}
+[4.809258] (-) TimerEvent: {}
+[4.909428] (-) TimerEvent: {}
+[5.009605] (-) TimerEvent: {}
+[5.109827] (-) TimerEvent: {}
+[5.210017] (-) TimerEvent: {}
+[5.310190] (-) TimerEvent: {}
+[5.410413] (-) TimerEvent: {}
+[5.459971] (robot_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[5.510486] (-) TimerEvent: {}
+[5.610963] (-) TimerEvent: {}
+[5.711135] (-) TimerEvent: {}
+[5.811307] (-) TimerEvent: {}
+[5.911470] (-) TimerEvent: {}
+[6.011625] (-) TimerEvent: {}
+[6.111811] (-) TimerEvent: {}
+[6.212002] (-) TimerEvent: {}
+[6.312175] (-) TimerEvent: {}
+[6.412587] (-) TimerEvent: {}
+[6.415456] (robot_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[6.512672] (-) TimerEvent: {}
+[6.602910] (robot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[6.612758] (-) TimerEvent: {}
+[6.712932] (-) TimerEvent: {}
+[6.813100] (-) TimerEvent: {}
+[6.863490] (robot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[6.870801] (robot_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[6.871232] (robot_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[6.905354] (robot_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[6.913186] (-) TimerEvent: {}
+[6.925427] (robot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[7.013289] (-) TimerEvent: {}
+[7.080003] (robot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[7.087612] (robot_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[7.087943] (robot_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[7.088427] (robot_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[7.113356] (-) TimerEvent: {}
+[7.162103] (robot_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[7.213456] (-) TimerEvent: {}
+[7.313660] (-) TimerEvent: {}
+[7.392619] (robot_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[7.413738] (-) TimerEvent: {}
+[7.513909] (-) TimerEvent: {}
+[7.614095] (-) TimerEvent: {}
+[7.646993] (robot_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[7.714179] (-) TimerEvent: {}
+[7.715539] (robot_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.716706] (robot_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.717920] (robot_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.720444] (robot_description) StdoutLine: {'line': b'-- Generating done\n'}
+[7.721601] (robot_description) StdoutLine: {'line': b'-- Build files have been written to: /home/ros/ros2_ws/build/robot_description\n'}
+[7.725082] (robot_description) CommandEnded: {'returncode': 0}
+[7.725404] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'build'}
+[7.725974] (robot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros/ros2_ws/build/robot_description', '--', '-j16', '-l16'], 'cwd': '/home/ros/ros2_ws/build/robot_description', 'env': OrderedDict([('HOSTNAME', 'ammar-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros'), ('OLDPWD', '/home/ros/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/ros/ros2_ws/build/robot_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('ROS_WORKSPACE', '/home/ros/ros2_ws'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[7.765472] (robot_description) CommandEnded: {'returncode': 0}
+[7.765894] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'install'}
+[7.775185] (robot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros/ros2_ws/build/robot_description'], 'cwd': '/home/ros/ros2_ws/build/robot_description', 'env': OrderedDict([('HOSTNAME', 'ammar-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros'), ('OLDPWD', '/home/ros/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/ros/ros2_ws/build/robot_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('ROS_WORKSPACE', '/home/ros/ros2_ws'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[7.783594] (robot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.783898] (robot_description) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description\n'}
+[7.784233] (robot_description) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description\n'}
+[7.784536] (robot_description) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.sh\n'}
+[7.784741] (robot_description) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv\n'}
+[7.784975] (robot_description) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/install/robot_description/share/robot_description/environment/path.sh\n'}
+[7.785186] (robot_description) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/install/robot_description/share/robot_description/environment/path.dsv\n'}
+[7.785373] (robot_description) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/install/robot_description/share/robot_description/local_setup.bash\n'}
+[7.785570] (robot_description) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/install/robot_description/share/robot_description/local_setup.sh\n'}
+[7.785764] (robot_description) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/install/robot_description/share/robot_description/local_setup.zsh\n'}
+[7.785932] (robot_description) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/install/robot_description/share/robot_description/local_setup.dsv\n'}
+[7.786071] (robot_description) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/install/robot_description/share/robot_description/package.dsv\n'}
+[7.786258] (robot_description) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/install/robot_description/share/ament_index/resource_index/packages/robot_description\n'}
+[7.786440] (robot_description) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake\n'}
+[7.786565] (robot_description) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake\n'}
+[7.786701] (robot_description) StdoutLine: {'line': b'-- Installing: /home/ros/ros2_ws/install/robot_description/share/robot_description/package.xml\n'}
+[7.787862] (robot_description) CommandEnded: {'returncode': 0}
+[7.798308] (robot_description) JobEnded: {'identifier': 'robot_description', 'rc': 0}
+[7.798858] (-) EventReactorShutdown: {}

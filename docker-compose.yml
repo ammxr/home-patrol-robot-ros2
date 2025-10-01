@@ -3,7 +3,7 @@ services:
     build: .
     container_name: ros2_sim
     environment:
-      - DISPLAY = ${DISPLAY}   # Container gui -> displays on host
+      - DISPLAY=${DISPLAY}   # Container gui -> displays on host
     
     volumes:
       # Allows graphical programs in the container.
@@ -16,4 +16,4 @@ services:
     network_mode: "host"   # Sharing host for ros2 dds
     stdin_open: true  # for interactive shells
     tty: true
-    priveileged: true # full system access (hw, gui, etc)
+    privileged: true # full system access (hw, gui, etc)
