@@ -23,3 +23,4 @@ USER ${USER}
 WORKDIR /home/${USER}
 
 ENV ROS_WORKSPACE=/home/${USER}/ros2_ws
+ENV GAZEBO_MODEL_PATH=/home/ros/ros2_ws/src/aws-robomaker-small-house-world/models:${GAZEBO_MODEL_PATH}
