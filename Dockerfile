@@ -23,3 +23,4 @@ USER ${USER}
 WORKDIR /home/${USER}
 
 ENV ROS_WORKSPACE=/home/${USER}/ros2_ws
+ENV MAHU=/home/${USER}/ros2_ws/mahu
