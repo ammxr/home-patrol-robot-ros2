@@ -4,7 +4,7 @@ services:
     container_name: ros2_sim
     environment:
       - DISPLAY=${DISPLAY}   # Container gui -> displays on host
-    
+      - GAZEBO_MODEL_PATH=/home/ros/models # models path (to make consistent with the file path the imported meshes expect)
     volumes:
       # Allows graphical programs in the container.
       - /tmp/.X11-unix:/tpm
@@ -12,8 +12,6 @@ services:
       # ros2_ws local mounted/in-sync with container 
       - ./ros2_ws:/home/ros/ros2_ws  
       - ./worlds:/home/ros/worlds:ro # world import
-    environment:
-      - GAZEBO_MODEL_PATH=/home/ros/models # models path (to make consistent with the file path the imported meshes expect)
 
     network_mode: "host"   # Sharing host for ros2 dds
     stdin_open: true  # for interactive shells
