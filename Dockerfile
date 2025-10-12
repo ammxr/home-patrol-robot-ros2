@@ -26,4 +26,5 @@ ENV ROS_WORKSPACE=/home/${USER}/ros2_ws
 
 # to make the filepath consistent with the imported map's meshes 
 RUN ln -sf /home/ros/worlds/bookstore/models /home/ros/models
-
+# Source ros2
+RUN echo "source /opt/ros/humble/setup.bash" >> /home/ros/.bashrc
