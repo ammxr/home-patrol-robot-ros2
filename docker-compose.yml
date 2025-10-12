@@ -12,7 +12,6 @@ services:
       # ros2_ws local mounted/in-sync with container 
       - ./ros2_ws:/home/ros/ros2_ws  
       - ./worlds:/home/ros/worlds:ro # world import
-
     network_mode: "host"   # Sharing host for ros2 dds
     stdin_open: true  # for interactive shells
     tty: true

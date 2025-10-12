@@ -15,7 +15,7 @@ RUN apt-get update && \
       python3-pip \
       && rm -rf /var/lib/apt/lists/*
 
-# setup non-root user
+# setup non-root user and /home dir
 ARG USER=ros
 ARG UID=1000
 RUN useradd -m -u ${UID} ${USER} || true
@@ -23,4 +23,7 @@ USER ${USER}
 WORKDIR /home/${USER}
 
 ENV ROS_WORKSPACE=/home/${USER}/ros2_ws
-ENV MAHU=/home/${USER}/ros2_ws/mahu
+
+# to make the filepath consistent with the imported map's meshes 
+RUN ln -sf /home/ros/worlds/bookstore/models /home/ros/models
+
