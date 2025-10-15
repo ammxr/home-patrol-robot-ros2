@@ -1135,9 +1135,13 @@
       <cast_shadows>0</cast_shadows>
       <direction>0 0 -1</direction>
     </light>
+    
+    <!--DEFAULT TURTLEBOT IN MAP; COMMENTED OUT TO REPLACE WITH MY PATROL_ROBOT 
     <include>
       <pose>-2.3 6.2 0.0 0.0 0.0 -1.72</pose>
       <uri>model://turtlebot3_waffle_pi</uri>
     </include>
+    -->
+  
   </world>
 </sdf>
