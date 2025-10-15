@@ -11,6 +11,7 @@ RUN apt-get update && \
       ros-humble-nav2-bringup \
       ros-humble-slam-toolbox \
       ros-humble-gazebo-ros-pkgs \
+      ros-humble-xacro \
       python3-colcon-common-extensions \
       python3-pip \
       && rm -rf /var/lib/apt/lists/*

@@ -1,0 +1,16 @@
+[1.707s] Invoking command in '/home/ros/ros2_ws/build/follow_waypoints': PYTHONPATH=/home/ros/ros2_ws/build/follow_waypoints/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/ros2_ws/install/follow_waypoints/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ros/ros2_ws/build/follow_waypoints/build --no-deps symlink_data
+[1.893s] running develop
+[2.054s] running egg_info
+[2.055s] writing follow_waypoints.egg-info/PKG-INFO
+[2.055s] writing dependency_links to follow_waypoints.egg-info/dependency_links.txt
+[2.055s] writing entry points to follow_waypoints.egg-info/entry_points.txt
+[2.055s] writing requirements to follow_waypoints.egg-info/requires.txt
+[2.055s] writing top-level names to follow_waypoints.egg-info/top_level.txt
+[2.056s] reading manifest file 'follow_waypoints.egg-info/SOURCES.txt'
+[2.069s] writing manifest file 'follow_waypoints.egg-info/SOURCES.txt'
+[2.070s] running build_ext
+[2.070s] Creating /home/ros/ros2_ws/install/follow_waypoints/lib/python3.10/site-packages/follow-waypoints.egg-link (link to .)
+[2.071s] 
+[2.071s] Installed /home/ros/ros2_ws/build/follow_waypoints
+[2.071s] running symlink_data
+[2.106s] Invoked command in '/home/ros/ros2_ws/build/follow_waypoints' returned '0': PYTHONPATH=/home/ros/ros2_ws/build/follow_waypoints/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/ros2_ws/install/follow_waypoints/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ros/ros2_ws/build/follow_waypoints/build --no-deps symlink_data

@@ -24,3 +24,9 @@ if(BUILD_TESTING)
 endif()
 
 ament_package()
+
+# AHC added 
+# installing for URDF/XACRO files
+install(DIRECTORY urdf/
+  DESTINATION share/${PROJECT_NAME}/urdf
+)
