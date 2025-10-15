@@ -28,7 +28,9 @@ def generate_launch_description():
 
     # Launch Gazebo with the imported world
     gazebo = ExecuteProcess(
-        cmd=['gazebo', '--verbose', '--mute', world],
+        cmd=['gazebo', '--verbose', '--mute', world,
+             '-s', 'libgazebo_ros_factory.so', # ros service to communicate with gazebo (otherwise gazebo runs standalone with no connection to ros)
+            ],
         output='screen'
     )
 
