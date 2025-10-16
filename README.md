@@ -22,7 +22,7 @@ docker exec -it ros2_sim bash
 Inside the container:
 ```bash
 source /opt/ros/humble/setup.bash
-source /ros2_ws/install/setup.bash
+source ~/ros2_ws/install/setup.bash
 ```
 
 ### 4. Launch the Simulation
