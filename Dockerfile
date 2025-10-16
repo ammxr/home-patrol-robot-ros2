@@ -14,6 +14,9 @@ RUN apt-get update && \
       ros-humble-xacro \
       python3-colcon-common-extensions \
       python3-pip \
+      ros-humble-navigation2 \
+      ros-humble-nav2-bringup \
+      ros-humble-tf-transformations \
       && rm -rf /var/lib/apt/lists/*
 
 # setup non-root user and /home dir
