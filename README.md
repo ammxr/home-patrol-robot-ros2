@@ -71,7 +71,7 @@ ros2 launch robot_bringup sim.launch.py
 ```
 home_patrol_robot/
 ├── docker-compose.yml          # Container setup and environment config
-├── Dockerfile			# Container setup and environment config
+├── Dockerfile                  # Container setup and environment config
 ├── worlds/                     # Custom Gazebo worlds (e.g., bookstore)
 ├── models/                     # Model resources for Gazebo
 ├── ros2_ws/
