@@ -150,5 +150,42 @@
     <origin xyz="0 0 0.08" rpy="0 0 0"/>
   </joint>
 
+
+  <!-- Gazebo Differential Drive Plugin for controls (subscribed to cmd_vel) -->
+  <!-- Documentation regarding options/topics can be found here... -->
+  <!-- https://classic.gazebosim.org/tutorials?tut=ros_gzplugins#:~:text=plugin%3E%0A%3C/gazebo%3E-,Differential%20Drive,-Description%3A%20model -->
+  <gazebo>
+    <plugin name="diff_drive" filename="libgazebo_ros_diff_drive.so">
+
+      <ros>
+        <namespace>/</namespace>
+      </ros>
+
+      <!-- Wheel joints -->
+      <left_joint>left_wheel_joint</left_joint>
+      <right_joint>right_wheel_joint</right_joint>
+
+      <!-- Robot geometry -->
+      <wheel_separation>0.30</wheel_separation>
+      <wheel_diameter>0.10</wheel_diameter>
+
+      <!-- Frames -->
+      <odom_frame>odom</odom_frame>
+      <!-- Robot frame to calculate odometry from -->
+      <<base_frame>base_link</base_frame>
+
+      <!-- Topics-->
+      <!-- cmd_vel topic to receive/subscribe to commands -->
+      <command_topic>cmd_vel</command_topic>
+      <!-- Topic to publish nav_msgs -->
+      <odometry_topic>odom</odometry_topic>
+
+      <!-- Publishing -->
+      <publish_odom>true</publish_odom>
+      <publish_odom_tf>true</publish_odom_tf>
+
+    </plugin>
+  </gazebo>
+
 </robot>
 
