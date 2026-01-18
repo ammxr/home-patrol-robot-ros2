@@ -172,7 +172,7 @@
       <!-- Frames -->
       <odom_frame>odom</odom_frame>
       <!-- Robot frame to calculate odometry from -->
-      <<base_frame>base_link</base_frame>
+      <base_frame>base_link</base_frame>
 
       <!-- Topics-->
       <!-- cmd_vel topic to receive/subscribe to commands -->
@@ -185,6 +185,37 @@
       <publish_odom_tf>true</publish_odom_tf>
 
     </plugin>
+  </gazebo>
+
+
+  <!-- Gazebo Laser Sensor -->
+  <gazebo reference="laser_link">
+    <sensor type="ray" name="laser">
+      <pose>0 0 0 0 0 0</pose>
+
+      <ray>
+        <scan>
+          <horizontal>
+            <samples>360</samples>
+            <min_angle>-3.14159</min_angle>
+            <max_angle>3.14159</max_angle>
+          </horizontal>
+        </scan>
+
+        <range>
+          <min>0.12</min>
+          <max>10.0</max>
+        </range>
+      </ray>
+    <plugin name="gazebo_ros_laser" filename="libgazebo_ros_ray_sensor.so">
+	  <!-- Manually remapping laser plugin /out to /scan topic since nav2 expects scan -->  
+	  <ros> 
+		    <remapping>~/out:=scan</remapping>
+	  </ros>
+	    <frameName>laser_link</frameName>
+    </plugin>
+
+    </sensor>
   </gazebo>
 
 </robot>

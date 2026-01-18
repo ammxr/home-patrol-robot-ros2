@@ -42,9 +42,28 @@ def generate_launch_description():
         output='screen'
     )
 
+
+
+    # Static transform for base_footprint -> base_link
+    # Without this the TF base_footprint and base_link are 2 separate branches
+    base_footprint_to_base_link = Node(
+        package='tf2_ros',
+        executable='static_transform_publisher',
+        name='base_footprint_to_base_link',
+        arguments=[
+            '0', '0', '0.05',   # x y z (z = wheel radius)
+            '0', '0', '0',      # roll pitch yaw
+            'base_footprint',
+            'base_link'
+        ],
+        output='screen'
+    )
+
+
     return LaunchDescription([
         gazebo,
         robot_state_publisher,
+        base_footprint_to_base_link,
         spawn_entity
     ])
 
